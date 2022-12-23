@@ -1,96 +1,247 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap'); 
-.container-fluid{
-    font-family: 'Poppins';
-    font-weight: 300;
+*{
+    margin: 0;
+    padding: 0;
 }
-.contant{
-    margin: 50px;
+
+.container{
+    background-image: url(backk.jpg)  ;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar ul{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
     
 }
-.contant p{
-    font-family: 'tahoma';
-    font-size: 12px;
-}
-
-.contant iframe{
-    padding: 40px;
-    margin: 10px;
-    padding-left: 80px;
-    margin-bottom: 70px;
-}
-.clases{
-    margin: 100px;
-}
-.clases img{
-    position:absolute;
-}
-.clases p{
-    position: relative;
-    margin-left: 50%;
-    font-family: "poppins";
-    font-size: 13px;
-}
-.students{
-    margin-left: 50px;
-}
-.students iframe{
-    margin: 30px;
-}
-.students p{
-    margin-left: 50px;
-    margin-right: 50px;
-    font-family: 'poppins';
-}
-.students img{
-    margin-right: 50px;
-}
-.element p {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.element iframe{
-    margin-top: 100px;
-    margin-left: 100px;
+.navbar ul li{
+    display: inline;
     padding: 20px;
+    
 }
-.footer{
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    font-family: tahoma;
+    transition: all 0.2s;
+}
+.navbar ul li a:hover{
+    color: gold;
+}
+.container h1{
+    color: white;
+    padding-left: 80px;
+    font-weight: 300;
+    font-size: 80px;
+    padding-top: 220px;
+    cursor: pointer;
+}
+.container h2{
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    padding-left: 80px;
+    font-weight: 300;
+    background-color: white;
+}
+.containertwo p{
+    margin: 50px;
+}
+.containerthree img{
+    float: right;
+    width: 500px;
+    margin-right: 10px;
+}
+.boxone{
+    background-color: rgb(225, 10, 10);
+    width: 800px;
+    height: 330px;
+    text-align: center;
+    margin-left: 420px;
+
+}
+.boxone p{
+   padding-top: 130px;
+   color: white;
+}
+.boxone button{
     background-color: black;
     color: white;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.1s;
 }
-.footer h4{
-    padding-left: 150px;
-    padding-top: 100px;
+.boxone button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: black;
 }
-.link{
+.row p{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(15, 16, 15);
+}
+.portfolio{
+    text-align: center;
+    padding: 10px;
+}
+.portfolio h1{
+    text-align: center;
+}
+.projectlink{
+    text-align: center;
+}
+.projectlink a{
+    display: block;
+}
+.projectlink a:hover{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
+.links{
+    margin-top: 50px;
+}
+.links a{
+    text-decoration: none;
+    text-align: center;
+    margin: 30px;
+    
+}
+.links a:hover  {
+    color: rgb(28, 27, 18);
+}
+.boxend{
+    background-color: red;
+    width: 65%;
+    height: 80vh;
+    text-align: center;
+}
+.boxend h1{
     padding: 50px;
-   padding-bottom: 100px;
+    font-size: 60px;
+    font-weight: 200;
+    font-family:  Verdana;
+    color: rgb(255, 255, 255);
 }
-.link a{
-    margin-left: 50px;
+.boxend h3{
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    font-family: courier;
+}
+.boxend a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: courier;
+    margin: 50px;
+}
+.boxend a:hover{
+    color: gold;
+}
+.social{
+    display: inline; 
+    margin: 50px;
+}
+.social p{
+    padding: 30px;
+    color: white;
+    transition: all 0.1s;
+}
+.social p:hover{
+    font-size: 22px;
+}
+.boxend h2{
+    padding: 50px;
+    padding-top: 15px;
+    font-size: 60px;
+    font-weight: 200;
+    font-family:  Verdana;
+    color: rgb(255, 255, 255);
 }
 
-
-@media (max-width:777px){
-    .clases img{
-        position: relative;
-        width: 100%;
+@media(max-width:1200px){
+    .boxone{
+        margin-left: 200px ;
     }
-.clases p{
-  margin-left: 10px;
 }
-.students{
-    margin-left: 150px;
+@media(max-width:1000px){
+    .boxone{
+        margin-left: 70px;
+        height: 265px;
+    }
+    .boxone p{
+        padding-top: 60px;
+    }
 }
-.students p{
-    margin-left: 10px;
+@media(max-width:970px){
+    .boxend{
+        position:absolute;
+        margin-top: 547px;
+        width: 100%;
+    
+      }
+      .boxone p{
+        padding-top: 60px;
+    }
+    .textthree img{
+        position:relative;
+        margin-bottom: 500px;
+        margin-left: 213px;
+    }
+  
 }
-p{
-    margin-left: 10px;
+@media(max-width:700px){
+    .boxone{
+        width: 550px;
+        height: 280px;
+    }
+    .boxone p{
+        padding-top: 60px;
+    }
 }
+@media(max-width:561px){
+    .boxone{
+        width: 374px;
+        height: 400px;
+    }
+    .boxend h2{
+        font-size: 40px;
+        padding: 44px;
+    }
 }
+@media(max-width:461px){
+    .container h1{
+        font-size: 60px;
 
-@media (max-wid:400px){
-    .students{
-        margin: 5px;
+    }
+    .boxone{
+        margin-left: 54px;
+    }
+
+}
+@media(max-width:365px){
+    .container h2{
+        padding-left: 42px;
+        padding-top: 145px;
+    }
+    .containertwo p{
+        margin: 26px;
+    }
+    .boxone{
+        margin-left: 20px;
+    }
+    .boxend a{
+        margin: 17px;
+        font-size: 18px;
+    }
+}
+@media(350px){
+    .container h1{
+
+        font-size: 50px;
     }
 }
