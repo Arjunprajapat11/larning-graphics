@@ -70,33 +70,44 @@
 }
 
 
-@media (max-width:777px){
+@media(max-width:600px){
+    .contant p{
+        margin-left: -24px;
+        margin-top: -20px;
+    }
+    .youtubeone{
+        width: 400px;
+       
+        padding-left: -50px;
+    }
     .clases img{
-        position: relative;
         width: 100%;
+        margin-left: -100px;
     }
-.clases p{
-  margin-left: 10px;
-}
-.students{
-    margin-left: 150px;
-}
-.students p{
-    margin-left: 10px;
-}
-p{
-    margin-left: 10px;
-}
-}
-
-@media (max-wid:400px){
-    .students{
-        margin: 5px;
+    .clases p{
+        padding-top: 300px;
+        margin-left: -80px;
     }
-   .students iframe{
+    .youtubetwo{
+         width: 300px;
+        
+    }
+    .element p{
         margin-left: 10px;
     }
-   .clases p{
-        margin-left: 5%;
+    .students p{
+        margin-left: -36px;
+        margin-right: 57px;
     }
+.students img{
+    margin-left: -30px;
+}
+.youtubethree{
+    width: 300px;
+    
+}
+.link{
+    padding: 18px;
+}
+ 
 }
